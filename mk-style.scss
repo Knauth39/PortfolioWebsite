@@ -1,0 +1,20 @@
+:root {
+
+  --color-dark-mode-black: #595959;
+  --color-dark-mode-white: #F2F2F2;
+  --color-dark-mode-blue: #2BC0FF;
+  --color-dark-mode-red: #FF4563;
+  --color-dark-mode-purple: #D854FF;
+  --color-dark-mode-green: #36E348;
+  --linear-gradient-blue: linear-gradient(90deg, #079d59, #00d4ff);
+
+}
+body {
+  background-color: var(--color-dark-mode-black);
+  color: var(--color-dark-mode-white);
+}
+
+.1-1-grid-header {
+  background-color: var(--linear-gradient-blue);
+  border-radius: 5px;
+}
